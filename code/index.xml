@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codes on Megan Reddy</title>
+    <link>meganr28.github.io/code/</link>
+    <description>Recent content in Codes on Megan Reddy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="meganr28.github.io/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Rasterizer</title>
+      <link>meganr28.github.io/code/rasterizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>meganr28.github.io/code/rasterizer/</guid>
+      <description>3D Rasterizer in Python October 8, 2020
+Task Description: For my Computer Graphics class, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
+Features:
+ Transformations (model/view, projection, rotation, translation, scaling, and lookat) Per-pixel clipping - pixels with a z-value less than 0 or greater than 1 are not drawn Depth buffer check Implements DDA algorithm for drawing lines Supports sun lights coming from a specified direction Allows an arbitrary number of lights and sums their contributions Uses Lambert&amp;rsquo;s Law for illumination  Improvements:</description>
+    </item>
+    
+    <item>
+      <title>Mini Maya</title>
+      <link>meganr28.github.io/code/maya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>meganr28.github.io/code/maya/</guid>
+      <description>Mini Maya with Processing and Arduino May 8, 2020
+VIEW PROJECT VIDEO HIGHLIGHTS
+University of Virginia ARCH 5424 Final Project
+Description: I created a Processing and Arduino project incorporating concepts from the entire semester, including cinematography, computer vision, and microcontrollers.
+Features and Responsiblities:
+ Built a &amp;ldquo;mini Maya&amp;rdquo; 3D modeling and rendering program with Processing Supports basic primitives, scaling, rotating, translating, and camera movement Includes a pre-loaded animation when &amp;ldquo;play&amp;rdquo; button is pressed Renders out frames to separate &amp;ldquo;data&amp;rdquo; folder in the current directory While rendering, displays status on external LCD monitor (Processing sends signals to Arduino program)  Improvements:</description>
+    </item>
+    
+    <item>
+      <title>Monte Carlo Path Tracer</title>
+      <link>meganr28.github.io/code/pathtracer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>meganr28.github.io/code/pathtracer/</guid>
+      <description>Monte Carlo Path Tracer in C++ November 24, 2020
+Utah Teapot (50 samples)
+Description: For my final project in Computer Graphics, I extended a ray tracer I wrote into a unidirectional path tracer. After the class was over, I translated my original Python implementation into C++ for performance purposes.
+Features:
+ Monte Carlo sampling for global illumination Sampling of area lights (produces soft shadows) Color bleeding Gamma correction Ray-sphere, triangle, plane, and rectangle intersections Diffuse, reflective, and refractive materials  Improvements:</description>
+    </item>
+    
+  </channel>
+</rss>

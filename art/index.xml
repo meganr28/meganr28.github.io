@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arts on Megan Reddy</title>
+    <link>meganr28.github.io/art/</link>
+    <description>Recent content in Arts on Megan Reddy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="meganr28.github.io/art/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Modeling</title>
+      <link>meganr28.github.io/art/renders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>meganr28.github.io/art/renders/</guid>
+      <description>3D Modeling 1. Morning Room Set February 6, 2020
+Program: Maya
+For this personal project, I wanted to create a scene of a workroom/playroom in the early morning hours. To light the scene, I used V-Ray sun and rectangle lights. I also played around with the camera’s ISO value to make the scene brighter. All of the objects were modeled by hand.
+Later on, I would love to add color/textures to the objects and use V-Ray Environmental Fog to create sunbeams.</description>
+    </item>
+    
+    <item>
+      <title>Animation</title>
+      <link>meganr28.github.io/art/animation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>meganr28.github.io/art/animation/</guid>
+      <description>Animation 1. Animated Short Film: &amp;ldquo;Monsoon&amp;rdquo; December 17, 2019
+VIEW PROJECT VIDEO HIGHLIGHTS
+University of Virginia ARCH 5420 Final Project
+Description: I created a 1-3 minute animation incorporating themes from the entire semester (time, light, etc.).
+Features and Responsibilities:
+ Modeled, shaded, rigged, and animated all characters and settings (with the exception of the gate and power line - courtesy of TurboSquid) MEL scripting to manipulate the rain, wind, and light intensity Rendered over 3,500 frames in V-Ray using multiple computers Features V-Ray Mesh Lighting and Environmental Fog  Improvements:</description>
+    </item>
+    
+    <item>
+      <title>Digital Art</title>
+      <link>meganr28.github.io/art/digital/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>meganr28.github.io/art/digital/</guid>
+      <description>Digital Art 1. Labrador Retriever August 2019
+Program: Procreate
+Description: This drawing was inspired by my 13-year-old chocolate Labrador Retriever who always has a goofy smile on her face. This was drawn when she was 11-years-old.
+2. Hot Chocolate September 2019
+Program: Procreate
+Description: I drew this from a photo I took at our local coffee shop. My high school friends go to different universities, but we meet here when we come home again.</description>
+    </item>
+    
+  </channel>
+</rss>
