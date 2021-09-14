@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Megan Reddy</title>
-    <link>meganr28.github.io/</link>
+    <link>http://example.org/</link>
     <description>Recent content in Home on Megan Reddy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="meganr28.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D Modeling</title>
-      <link>meganr28.github.io/art/renders/</link>
+      <link>http://example.org/art/renders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>meganr28.github.io/art/renders/</guid>
+      <guid>http://example.org/art/renders/</guid>
       <description>3D Modeling 1. Morning Room Set February 6, 2020
 Program: Maya
 For this personal project, I wanted to create a scene of a workroom/playroom in the early morning hours. To light the scene, I used V-Ray sun and rectangle lights. I also played around with the camera’s ISO value to make the scene brighter. All of the objects were modeled by hand.
@@ -20,10 +20,10 @@ Later on, I would love to add color/textures to the objects and use V-Ray Enviro
     
     <item>
       <title>3D Rasterizer</title>
-      <link>meganr28.github.io/code/rasterizer/</link>
+      <link>http://example.org/code/rasterizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>meganr28.github.io/code/rasterizer/</guid>
+      <guid>http://example.org/code/rasterizer/</guid>
       <description>3D Rasterizer in Python October 8, 2020
 Task Description: For my Computer Graphics class, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
 Features:
@@ -32,10 +32,10 @@ Features:
     
     <item>
       <title>Animation</title>
-      <link>meganr28.github.io/art/animation/</link>
+      <link>http://example.org/art/animation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>meganr28.github.io/art/animation/</guid>
+      <guid>http://example.org/art/animation/</guid>
       <description>Animation 1. Animated Short Film: &amp;ldquo;Monsoon&amp;rdquo; December 17, 2019
 VIEW PROJECT VIDEO HIGHLIGHTS
 University of Virginia ARCH 5420 Final Project
@@ -46,10 +46,10 @@ Features and Responsibilities:
     
     <item>
       <title>Digital Art</title>
-      <link>meganr28.github.io/art/digital/</link>
+      <link>http://example.org/art/digital/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>meganr28.github.io/art/digital/</guid>
+      <guid>http://example.org/art/digital/</guid>
       <description>Digital Art 1. Labrador Retriever August 2019
 Program: Procreate
 Description: This drawing was inspired by my 13-year-old chocolate Labrador Retriever who always has a goofy smile on her face. This was drawn when she was 11-years-old.
@@ -60,10 +60,10 @@ Description: I drew this from a photo I took at our local coffee shop. My high s
     
     <item>
       <title>Mini Maya</title>
-      <link>meganr28.github.io/code/maya/</link>
+      <link>http://example.org/code/maya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>meganr28.github.io/code/maya/</guid>
+      <guid>http://example.org/code/maya/</guid>
       <description>Mini Maya with Processing and Arduino May 8, 2020
 VIEW PROJECT VIDEO HIGHLIGHTS
 University of Virginia ARCH 5424 Final Project
@@ -74,10 +74,10 @@ Features and Responsiblities:
     
     <item>
       <title>Monte Carlo Path Tracer</title>
-      <link>meganr28.github.io/code/pathtracer/</link>
+      <link>http://example.org/code/pathtracer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>meganr28.github.io/code/pathtracer/</guid>
+      <guid>http://example.org/code/pathtracer/</guid>
       <description>Monte Carlo Path Tracer in C++ November 24, 2020
 Utah Teapot (50 samples)
 Description: For my final project in Computer Graphics, I extended a ray tracer I wrote into a unidirectional path tracer. After the class was over, I translated my original Python implementation into C++ for performance purposes.

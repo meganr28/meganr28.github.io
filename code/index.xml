@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codes on Megan Reddy</title>
-    <link>meganr28.github.io/code/</link>
+    <link>http://example.org/code/</link>
     <description>Recent content in Codes on Megan Reddy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="meganr28.github.io/code/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://example.org/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D Rasterizer</title>
-      <link>meganr28.github.io/code/rasterizer/</link>
+      <link>http://example.org/code/rasterizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>meganr28.github.io/code/rasterizer/</guid>
+      <guid>http://example.org/code/rasterizer/</guid>
       <description>3D Rasterizer in Python October 8, 2020
 Task Description: For my Computer Graphics class, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
 Features:
@@ -20,10 +20,10 @@ Features:
     
     <item>
       <title>Mini Maya</title>
-      <link>meganr28.github.io/code/maya/</link>
+      <link>http://example.org/code/maya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>meganr28.github.io/code/maya/</guid>
+      <guid>http://example.org/code/maya/</guid>
       <description>Mini Maya with Processing and Arduino May 8, 2020
 VIEW PROJECT VIDEO HIGHLIGHTS
 University of Virginia ARCH 5424 Final Project
@@ -34,10 +34,10 @@ Features and Responsiblities:
     
     <item>
       <title>Monte Carlo Path Tracer</title>
-      <link>meganr28.github.io/code/pathtracer/</link>
+      <link>http://example.org/code/pathtracer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>meganr28.github.io/code/pathtracer/</guid>
+      <guid>http://example.org/code/pathtracer/</guid>
       <description>Monte Carlo Path Tracer in C++ November 24, 2020
 Utah Teapot (50 samples)
 Description: For my final project in Computer Graphics, I extended a ray tracer I wrote into a unidirectional path tracer. After the class was over, I translated my original Python implementation into C++ for performance purposes.

@@ -1,49 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>meganr28.github.io/art/renders/</loc>
+    <loc>http://example.org/art/renders/</loc>
+  </url><url>
+    <loc>http://example.org/code/rasterizer/</loc>
+  </url><url>
+    <loc>http://example.org/art/animation/</loc>
+  </url><url>
+    <loc>http://example.org/art/</loc>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/code/</loc>
+  </url><url>
+    <loc>http://example.org/art/digital/</loc>
+  </url><url>
+    <loc>http://example.org/</loc>
+  </url><url>
+    <loc>http://example.org/code/maya/</loc>
+  </url><url>
+    <loc>http://example.org/code/pathtracer/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
   </url>
-  
-  <url>
-    <loc>meganr28.github.io/code/rasterizer/</loc>
-  </url>
-  
-  <url>
-    <loc>meganr28.github.io/art/animation/</loc>
-  </url>
-  
-  <url>
-    <loc>meganr28.github.io/art/</loc>
-  </url>
-  
-  <url>
-    <loc>meganr28.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>meganr28.github.io/code/</loc>
-  </url>
-  
-  <url>
-    <loc>meganr28.github.io/art/digital/</loc>
-  </url>
-  
-  <url>
-    <loc>meganr28.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>meganr28.github.io/code/maya/</loc>
-  </url>
-  
-  <url>
-    <loc>meganr28.github.io/code/pathtracer/</loc>
-  </url>
-  
-  <url>
-    <loc>meganr28.github.io/tags/</loc>
-  </url>
-  
 </urlset>
