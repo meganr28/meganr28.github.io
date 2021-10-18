@@ -12,8 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/code/rasterizer/</guid>
-      <description>3D Rasterizer in Python October 8, 2020
-Task Description: For my Computer Graphics class, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
+      <description>3D Rasterizer in Python October 2020
+Task Description: For my Introduction to Computer Graphics class at the University of Virginia, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
 Features:
  Transformations (model/view, projection, rotation, translation, scaling, and lookat) Per-pixel clipping - pixels with a z-value less than 0 or greater than 1 are not drawn Depth buffer check Implements DDA algorithm for drawing lines Supports sun lights coming from a specified direction Allows an arbitrary number of lights and sums their contributions Uses Lambert&amp;rsquo;s Law for illumination  Improvements:</description>
     </item>
@@ -24,7 +24,7 @@ Features:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/code/maya/</guid>
-      <description>Mini Maya with Processing and Arduino May 8, 2020
+      <description>Mini Maya with Processing and Arduino May 2020
 VIEW PROJECT VIDEO HIGHLIGHTS
 University of Virginia ARCH 5424 Final Project
 Description: I created a Processing and Arduino project incorporating concepts from the entire semester, including cinematography, computer vision, and microcontrollers.
@@ -38,9 +38,9 @@ Features and Responsiblities:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/code/pathtracer/</guid>
-      <description>Monte Carlo Path Tracer in C++ November 24, 2020
+      <description>Monte Carlo Path Tracer in C++ November 2020
 Utah Teapot (50 samples)
-Description: For my final project in Computer Graphics, I extended a ray tracer I wrote into a unidirectional path tracer. After the class was over, I translated my original Python implementation into C++ for performance purposes.
+Description: For my final project in Introduction to Computer Graphics at the University of Virginia, I extended a ray tracer I wrote into a unidirectional path tracer. I translated my original Python implementation into C++ for improved performance.
 Features:
  Monte Carlo sampling for global illumination Sampling of area lights (produces soft shadows) Color bleeding Gamma correction Ray-sphere, triangle, plane, and rectangle intersections Diffuse, reflective, and refractive materials  Improvements:</description>
     </item>

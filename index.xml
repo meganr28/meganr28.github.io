@@ -12,10 +12,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/art/renders/</guid>
-      <description>3D Modeling 1. Morning Room Set February 6, 2020
-Program: Maya
-For this personal project, I wanted to create a scene of a workroom/playroom in the early morning hours. To light the scene, I used V-Ray sun and rectangle lights. I also played around with the camera’s ISO value to make the scene brighter. All of the objects were modeled by hand.
-Later on, I would love to add color/textures to the objects and use V-Ray Environmental Fog to create sunbeams.</description>
+      <description>3D Modeling 1. Violin October 2021
+Tools: Maya and Arnold
+2. Ice Cream Pop Art October 2021
+Tools: Maya and Arnold Toon Shader
+3. Object Study October 2021
+Tools: Maya and Arnold</description>
     </item>
     
     <item>
@@ -24,8 +26,8 @@ Later on, I would love to add color/textures to the objects and use V-Ray Enviro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/code/rasterizer/</guid>
-      <description>3D Rasterizer in Python October 8, 2020
-Task Description: For my Computer Graphics class, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
+      <description>3D Rasterizer in Python October 2020
+Task Description: For my Introduction to Computer Graphics class at the University of Virginia, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
 Features:
  Transformations (model/view, projection, rotation, translation, scaling, and lookat) Per-pixel clipping - pixels with a z-value less than 0 or greater than 1 are not drawn Depth buffer check Implements DDA algorithm for drawing lines Supports sun lights coming from a specified direction Allows an arbitrary number of lights and sums their contributions Uses Lambert&amp;rsquo;s Law for illumination  Improvements:</description>
     </item>
@@ -36,7 +38,7 @@ Features:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/art/animation/</guid>
-      <description>Animation 1. Animated Short Film: &amp;ldquo;Monsoon&amp;rdquo; December 17, 2019
+      <description>Animation 1. Animated Short Film: &amp;ldquo;Monsoon&amp;rdquo; December 2019
 VIEW PROJECT VIDEO HIGHLIGHTS
 University of Virginia ARCH 5420 Final Project
 Description: I created a 1-3 minute animation incorporating themes from the entire semester (time, light, etc.).
@@ -52,10 +54,10 @@ Features and Responsibilities:
       <guid>http://example.org/art/digital/</guid>
       <description>Digital Art 1. Labrador Retriever August 2019
 Program: Procreate
-Description: This drawing was inspired by my 13-year-old chocolate Labrador Retriever who always has a goofy smile on her face. This was drawn when she was 11-years-old.
+Description: This drawing was inspired by my 13-year-old chocolate Labrador Retriever who always has a goofy smile on her face.
 2. Hot Chocolate September 2019
 Program: Procreate
-Description: I drew this from a photo I took at our local coffee shop. My high school friends go to different universities, but we meet here when we come home again.</description>
+Description: I drew this from a photo I took at our local coffee shop.</description>
     </item>
     
     <item>
@@ -64,7 +66,7 @@ Description: I drew this from a photo I took at our local coffee shop. My high s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/code/maya/</guid>
-      <description>Mini Maya with Processing and Arduino May 8, 2020
+      <description>Mini Maya with Processing and Arduino May 2020
 VIEW PROJECT VIDEO HIGHLIGHTS
 University of Virginia ARCH 5424 Final Project
 Description: I created a Processing and Arduino project incorporating concepts from the entire semester, including cinematography, computer vision, and microcontrollers.
@@ -78,9 +80,9 @@ Features and Responsiblities:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/code/pathtracer/</guid>
-      <description>Monte Carlo Path Tracer in C++ November 24, 2020
+      <description>Monte Carlo Path Tracer in C++ November 2020
 Utah Teapot (50 samples)
-Description: For my final project in Computer Graphics, I extended a ray tracer I wrote into a unidirectional path tracer. After the class was over, I translated my original Python implementation into C++ for performance purposes.
+Description: For my final project in Introduction to Computer Graphics at the University of Virginia, I extended a ray tracer I wrote into a unidirectional path tracer. I translated my original Python implementation into C++ for improved performance.
 Features:
  Monte Carlo sampling for global illumination Sampling of area lights (produces soft shadows) Color bleeding Gamma correction Ray-sphere, triangle, plane, and rectangle intersections Diffuse, reflective, and refractive materials  Improvements:</description>
     </item>
