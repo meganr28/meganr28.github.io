@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Megan Reddy</title>
-    <link>http://example.org/</link>
-    <description>Recent content in Home on Megan Reddy</description>
+    <title>Code_pages on Megan Reddy</title>
+    <link>http://example.org/code_pages/</link>
+    <description>Recent content in Code_pages on Megan Reddy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>3D Modeling</title>
-      <link>http://example.org/art_pages/renders/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/art_pages/renders/</guid>
-      <description>3D Modeling 1. Violin October 2021
-Tools: Maya and Arnold
-2. Ice Cream Pop Art October 2021
-Tools: Maya and Arnold Toon Shader
-3. Object Study October 2021
-Tools: Maya and Arnold</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://example.org/code_pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D Rasterizer</title>
       <link>http://example.org/code_pages/rasterizer/</link>
@@ -33,47 +19,6 @@ Features:
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/about/</guid>
-      <description>About Me I am a master&amp;rsquo;s student at the University of Pennsylvania pursuing an MSE in Computer Graphics and Game Technology (exp. May 2023). I received my bachelor&amp;rsquo;s degree in Computer Science from the University of Virginia in May 2021. By studying computer graphics, I am hoping to explore the intersection between mathematics, art, and programming and use them to develop tools for artists.
-In my free time, I enjoy making digital and traditional art, video editing, and playing the violin.</description>
-    </item>
-    
-    <item>
-      <title>Animation</title>
-      <link>http://example.org/art_pages/animation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/art_pages/animation/</guid>
-      <description>Animation 1. Animated Short Film: &amp;ldquo;Monsoon&amp;rdquo; December 2019
- University of Virginia ARCH 5420 Final Project
-Description: I created a 1-3 minute animation incorporating themes from the entire semester (time, light, etc.).
-Features and Responsibilities:
- Modeled, shaded, rigged, and animated all characters and settings (with the exception of the gate and power line - courtesy of TurboSquid) MEL scripting to manipulate the rain, wind, and light intensity Rendered over 3,500 frames in V-Ray using multiple computers Features V-Ray Mesh Lighting and Environmental Fog  Future Work:</description>
-    </item>
-    
-    <item>
-      <title>Art</title>
-      <link>http://example.org/art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/art/</guid>
-      <description>Art Samples  Digital Art 3D Modeling Animated Short Film  </description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>http://example.org/code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/code/</guid>
-      <description>University of Pennsylvania  Micro Maya Mesh Editor Curve Editor OpenGL Shaders Rasterizer and Camera  University of Virginia  Monte Carlo Path Tracer 3D Rasterizer  </description>
-    </item>
-    
-    <item>
       <title>Curve Editor</title>
       <link>http://example.org/code_pages/curveeditor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -83,20 +28,6 @@ Features and Responsibilities:
 Description: An interactive animation and spline curve editor with a Unity plugin.
 Features:
  Linear, cubic Catmull-Rom, and Hermite spline interpolation Three Bezier curve computation methods: Bernstein polynomials, de Casteljau, Matrix method Euler angle and quaternion spline interpolation  </description>
-    </item>
-    
-    <item>
-      <title>Digital Art</title>
-      <link>http://example.org/art_pages/digital/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/art_pages/digital/</guid>
-      <description>Digital Art 1. Labrador Retriever August 2019
-Program: Procreate
-Description: This drawing was inspired by my 14-year-old chocolate Labrador Retriever who always has a goofy smile on her face.
-2. Hot Chocolate September 2019
-Program: Procreate
-Description: I drew this from a photo I took at our local coffee shop.</description>
     </item>
     
     <item>

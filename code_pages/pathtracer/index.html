@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Code</title>
+    <title>Monte Carlo Path Tracer</title>
     <meta name="description" content="Porfolio Website">
     <meta name="author" content='Megan Reddy'>
 
@@ -55,19 +55,41 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h3 id="university-of-pennsylvania">University of Pennsylvania</h3>
+    <h1 id="monte-carlo-path-tracer-in-c">Monte Carlo Path Tracer in C++</h1>
+<p>November 2020</p>
+<p><img src="/teapot.png" alt="Teapot">
+<em>Utah Teapot (50 samples)</em></p>
+<p><strong>Description:</strong> For my final project in Introduction to Computer Graphics at the University of Virginia, I extended a ray tracer I wrote into a unidirectional path tracer. I translated my original Python implementation into C++ for improved performance.</p>
+<p><strong>Features:</strong></p>
 <ul>
-<li><a href="/code_pages/maya">Micro Maya Mesh Editor</a></li>
-<li><a href="/code_pages/curveeditor">Curve Editor</a></li>
-<li><a href="/code_pages/opengl">OpenGL Shaders</a></li>
-<li><a href="/code_pages/rasterizer2">Rasterizer and Camera</a></li>
+<li>Monte Carlo sampling for global illumination</li>
+<li>Sampling of area lights (produces soft shadows)</li>
+<li>Color bleeding</li>
+<li>Gamma correction</li>
+<li>Ray-sphere, triangle, plane, and rectangle intersections</li>
+<li>Diffuse, reflective, and refractive materials</li>
 </ul>
-<h3 id="university-of-virginia">University of Virginia</h3>
+<p><strong>Improvements:</strong></p>
 <ul>
-<li><a href="/code_pages/pathtracer">Monte Carlo Path Tracer</a></li>
-<li><a href="/code_pages/rasterizer">3D Rasterizer</a></li>
+<li>Implement bidirectionality for more accurate caustics</li>
+<li>Bounding volume hierarchy for acceleration</li>
 </ul>
-
+<p><strong>Other Images:</strong></p>
+<p><img src="/spheres.png" alt="Diffuse Spheres">
+<em>Color bleeding with two diffuse spheres (50 samples)</em></p>
+<p><img src="/arealight.png" alt="Area Light">
+<em>Diffuse sphere with a spherical area light above (50 samples)</em></p>
+<p><strong>Code Sample:</strong></p>
+<p>For easier viewing, I have put all classes and dependencies in one .cpp file below:</p>
+<ul>
+<li><a href="/pathtracer.cpp">pathtracer.cpp</a></li>
+</ul>
+<p>If you would like to compile and run this project, download this <a href="/pathtracer.zip">zip file</a>. It contains example files and the open-source image library I used to create png files. I reduced the sample rate for faster rendering times.</p>
+<p>To compile:</p>
+<pre tabindex="0"><code>g++ pathtracer.cpp -lpng -lX11 -lpthread -o output
+</code></pre><p>To run:</p>
+<pre tabindex="0"><code>./output spheres.txt
+</code></pre>
 </div>
 
         </div><div id="footer" class="mb-5">

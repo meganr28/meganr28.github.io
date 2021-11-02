@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Code</title>
+    <title>3D Rasterizer</title>
     <meta name="description" content="Porfolio Website">
     <meta name="author" content='Megan Reddy'>
 
@@ -55,19 +55,32 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h3 id="university-of-pennsylvania">University of Pennsylvania</h3>
+    <h1 id="3d-rasterizer-in-python">3D Rasterizer in Python</h1>
+<p>October 2020</p>
+<p><img src="/chair.png" alt="Red Chair"></p>
+<p><strong>Description:</strong> For my Introduction to Computer Graphics class at the University of Virginia, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.</p>
+<p><strong>Features:</strong></p>
 <ul>
-<li><a href="/code_pages/maya">Micro Maya Mesh Editor</a></li>
-<li><a href="/code_pages/curveeditor">Curve Editor</a></li>
-<li><a href="/code_pages/opengl">OpenGL Shaders</a></li>
-<li><a href="/code_pages/rasterizer2">Rasterizer and Camera</a></li>
+<li>Transformations (model/view, projection, rotation, translation, scaling, and lookat)</li>
+<li>Per-pixel clipping - pixels with a z-value less than 0 or greater than 1 are not drawn</li>
+<li>Depth buffer check</li>
+<li>Implements DDA algorithm for drawing lines</li>
+<li>Supports sun lights coming from a specified direction</li>
+<li>Allows an arbitrary number of lights and sums their contributions</li>
+<li>Uses Lambert&rsquo;s Law for illumination</li>
 </ul>
-<h3 id="university-of-virginia">University of Virginia</h3>
+<p><strong>Improvements:</strong></p>
 <ul>
-<li><a href="/code_pages/pathtracer">Monte Carlo Path Tracer</a></li>
-<li><a href="/code_pages/rasterizer">3D Rasterizer</a></li>
+<li>Add support for textures and different types of lighting (e.g. point lights)</li>
 </ul>
-
+<p><strong>Code Sample:</strong></p>
+<ul>
+<li><a href="/rasterizer.py">rasterizer.py</a></li>
+<li><a href="/chair.txt">chair.txt</a></li>
+</ul>
+<p>To run:</p>
+<pre tabindex="0"><code>python rasterizer.py chair.txt
+</code></pre>
 </div>
 
         </div><div id="footer" class="mb-5">

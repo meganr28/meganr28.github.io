@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/art/renders/</loc>
+    <loc>http://example.org/art_pages/renders/</loc>
   </url><url>
-    <loc>http://example.org/code/rasterizer/</loc>
+    <loc>http://example.org/code_pages/rasterizer/</loc>
   </url><url>
-    <loc>http://example.org/art/animation/</loc>
+    <loc>http://example.org/about/</loc>
+  </url><url>
+    <loc>http://example.org/art_pages/animation/</loc>
   </url><url>
     <loc>http://example.org/art/</loc>
+  </url><url>
+    <loc>http://example.org/art_pages/</loc>
   </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/code/</loc>
   </url><url>
-    <loc>http://example.org/art/digital/</loc>
+    <loc>http://example.org/code_pages/</loc>
+  </url><url>
+    <loc>http://example.org/code_pages/curveeditor/</loc>
+  </url><url>
+    <loc>http://example.org/art_pages/digital/</loc>
   </url><url>
     <loc>http://example.org/</loc>
   </url><url>
-    <loc>http://example.org/code/maya/</loc>
+    <loc>http://example.org/code_pages/maya/</loc>
   </url><url>
-    <loc>http://example.org/code/pathtracer/</loc>
+    <loc>http://example.org/code_pages/pathtracer/</loc>
+  </url><url>
+    <loc>http://example.org/code_pages/opengl/</loc>
+  </url><url>
+    <loc>http://example.org/code_pages/rasterizer2/</loc>
   </url><url>
     <loc>http://example.org/tags/</loc>
   </url>
