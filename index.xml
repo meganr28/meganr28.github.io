@@ -8,24 +8,24 @@
     <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D Modeling</title>
-      <link>http://example.org/art_pages/renders/</link>
+      <link>http://example.org/art_pages/modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/art_pages/renders/</guid>
-      <description>3D Modeling 1. Violin October 2021
-Tools: Maya and Arnold
-2. Ice Cream Pop Art October 2021
-Tools: Maya and Arnold Toon Shader
-3. Object Study October 2021
-Tools: Maya and Arnold</description>
+      <guid>http://example.org/art_pages/modeling/</guid>
+      <description>3D Modeling Nancy Drew&amp;rsquo;s Shadow Ranch Description: A reimagination of a scene from one of my favorite childhood games, Nancy Drew: The Secret of Shadow Ranch (2004).
+Programs: Maya, Substance Painter, Substance Designer, Arnold
+ Music Room Description: A model of the room (with some additions) in this photo.
+Programs: Maya and Arnold
+ Katara Character Modeling Description: A character model of Katara from Avatar: The Last Airbender.
+Programs: Maya and Arnold</description>
     </item>
     
     <item>
       <title>3D Rasterizer</title>
-      <link>http://example.org/code_pages/rasterizer/</link>
+      <link>http://example.org/old_pages/rasterizer_uva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/code_pages/rasterizer/</guid>
+      <guid>http://example.org/old_pages/rasterizer_uva/</guid>
       <description>3D Rasterizer in Python October 2020
 Description: For my Introduction to Computer Graphics class at the University of Virginia, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
 Features:
@@ -44,10 +44,10 @@ In my free time, I enjoy making digital and traditional art, video editing, and 
     
     <item>
       <title>Animation</title>
-      <link>http://example.org/art_pages/animation/</link>
+      <link>http://example.org/old_pages/animation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/art_pages/animation/</guid>
+      <guid>http://example.org/old_pages/animation/</guid>
       <description>Animation 1. Animated Short Film: &amp;ldquo;Monsoon&amp;rdquo; December 2019
  University of Virginia ARCH 5420 Final Project
 Description: I created a 1-3 minute animation incorporating themes from the entire semester (time, light, etc.).
@@ -61,7 +61,7 @@ Features and Responsibilities:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/art/</guid>
-      <description>Art Samples  Digital Art 3D Modeling Animated Short Film  </description>
+      <description>Art Samples  Digital Art 3D Modeling  </description>
     </item>
     
     <item>
@@ -70,15 +70,40 @@ Features and Responsibilities:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/code/</guid>
-      <description>University of Pennsylvania  Micro Maya Mesh Editor Curve Editor OpenGL Shaders Rasterizer and Camera  University of Virginia  Monte Carlo Path Tracer 3D Rasterizer  </description>
+      <description>Rendering  GPU Path Tracer CPU Path Tracer OpenGL Shaders Rasterizer and Camera  Geometry Processing  Cubic Stylization Authoring Tool Micro Maya Mesh Editor  Other  Mini Minecraft  </description>
+    </item>
+    
+    <item>
+      <title>CPU Path Tracer</title>
+      <link>http://example.org/code_pages/pathtracer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/code_pages/pathtracer/</guid>
+      <description>CPU Path Tracer March 2022
+Description: A path tracer implemented using the Physically Based Rendering textbook.
+Features:
+ Full Lighting Integrator Russian Roulette ray termination Multiple Importance Sampling Diffuse, reflective, and transmissive materials Thin lens camera/depth of field Microfacet BRDF Area, point, and spot lights  </description>
+    </item>
+    
+    <item>
+      <title>Cubic Stylization Authoring Tool</title>
+      <link>http://example.org/code_pages/cubestylization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/code_pages/cubestylization/</guid>
+      <description>Cubic Stylization Authoring Tool May 2022
+Description: A Maya plugin for stylized 3D surface deformation. Our authoring tool takes an input mush and deforms it to exhibit cube-like geometry while preserving surface detail. This was developed with teammate Nick Moon.
+Paper: Cubic Stylization, Hsueh-Ti Derek Liu and Alec Jacobson, SIGGRAPH Asia 2019
+Features:
+ Basic cubification of shapes through minimization of ARAP energy Extension to other polyhedral target shapes (tetrahedron, octahedron, etc.</description>
     </item>
     
     <item>
       <title>Curve Editor</title>
-      <link>http://example.org/code_pages/curveeditor/</link>
+      <link>http://example.org/old_pages/curveeditor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/code_pages/curveeditor/</guid>
+      <guid>http://example.org/old_pages/curveeditor/</guid>
       <description>Animation Curve Editor in C++ October 2021
 Description: An interactive animation and spline curve editor with a Unity plugin.
 Features:
@@ -87,16 +112,30 @@ Features:
     
     <item>
       <title>Digital Art</title>
-      <link>http://example.org/art_pages/digital/</link>
+      <link>http://example.org/art_pages/digitalart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/art_pages/digital/</guid>
-      <description>Digital Art 1. Labrador Retriever August 2019
-Program: Procreate
+      <guid>http://example.org/art_pages/digitalart/</guid>
+      <description>Digital Art Mountain Sky Program: Procreate
+Description: A quick painting of an early morning sky and mountains.
+ Honey Jar Program: Procreate
+Description: A stylized painting of various objects such as a honey jar and orange.
+ Labrador Retriever Program: Procreate
 Description: This drawing was inspired by my 14-year-old chocolate Labrador Retriever who always has a goofy smile on her face.
-2. Hot Chocolate September 2019
-Program: Procreate
+ Hot Chocolate Program: Procreate
 Description: I drew this from a photo I took at our local coffee shop.</description>
+    </item>
+    
+    <item>
+      <title>GPU Path Tracer</title>
+      <link>http://example.org/code_pages/gpupath/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/code_pages/gpupath/</guid>
+      <description>GPU Path Tracer April 2022
+Description: An interactive GPU path tracer written in GLSL.
+Features:
+ Full Lighting Integrator Diffuse, specular, and transmissive materials Signed distance functions Environment lighting Procedurally-generated textures Albedo and normal mapping Thin lens camera/depth of field  </description>
     </item>
     
     <item>
@@ -108,16 +147,27 @@ Description: I drew this from a photo I took at our local coffee shop.</descript
       <description>Micro Maya Mesh Editor in C++ October 2021
 Description: A mesh editor application in the style of Autodesk Maya.
 Features:
- Half-edge mesh data structure implementation Interactive GUI for selecting vertices, faces, and half-edges in the mesh Topology editing functions, including split edge and triangulation Catmull-Clark subdivision for mesh smoothing Face extrusion OBJ file importing  In-Progress:
- Bind skeleton to mesh Linear blend skinning JSON file importing  </description>
+ Half-edge mesh data structure implementation Interactive GUI for selecting vertices, faces, and half-edges in the mesh Topology editing functions, including split edge and triangulation Catmull-Clark subdivision for mesh smoothing Face extrusion JSON/OBJ file importing Bind skeleton to mesh Linear blend skinning  </description>
+    </item>
+    
+    <item>
+      <title>Mini Minecraft</title>
+      <link>http://example.org/code_pages/minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/code_pages/minecraft/</guid>
+      <description>Mini Minecraft December 2021
+Description: An implementation of the popular 3D world exploration game Minecraft and based on the TV series Avatar: The Last Airbender. This was a group project with two other students.
+My Contributions:
+ Procedural terrain Mountain, grassland, island, and tundra biomes Multithreaded terrain generation Procedural sky Procedural assets (crystals, boats, trees) Lava and green crystal placement (glow implemented by teammate)  </description>
     </item>
     
     <item>
       <title>Monte Carlo Path Tracer</title>
-      <link>http://example.org/code_pages/pathtracer/</link>
+      <link>http://example.org/old_pages/pathtracer_uva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/code_pages/pathtracer/</guid>
+      <guid>http://example.org/old_pages/pathtracer_uva/</guid>
       <description>Monte Carlo Path Tracer in C++ November 2020
 Utah Teapot (50 samples)
 Description: For my final project in Introduction to Computer Graphics at the University of Virginia, I extended a ray tracer I wrote into a unidirectional path tracer. I translated my original Python implementation into C++ for improved performance.
@@ -139,10 +189,10 @@ Features (in order of appearance):
     
     <item>
       <title>Rasterizer and Camera</title>
-      <link>http://example.org/code_pages/rasterizer2/</link>
+      <link>http://example.org/code_pages/rasterizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/code_pages/rasterizer2/</guid>
+      <guid>http://example.org/code_pages/rasterizer/</guid>
       <description>Rasterizer and Camera in C++ October 2021
 Description: A 2D and 3D rasterizer with an interactive perspective camera.
 Features:

@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>3D Rasterizer</title>
+    <title>Rasterizer and Camera</title>
     <meta name="description" content="Porfolio Website">
     <meta name="author" content='Megan Reddy'>
 
@@ -55,32 +55,26 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h1 id="3d-rasterizer-in-python">3D Rasterizer in Python</h1>
-<p>October 2020</p>
-<p><img src="/chair.png" alt="Red Chair"></p>
-<p><strong>Description:</strong> For my Introduction to Computer Graphics class at the University of Virginia, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.</p>
+    <h1 id="rasterizer-and-camera-in-c">Rasterizer and Camera in C++</h1>
+<p>October 2021</p>
+<iframe src="https://player.vimeo.com/video/641362969?h=c3cc537c84&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="700" height="700" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Rasterizer"></iframe>
+<p><strong>Description:</strong> A 2D and 3D rasterizer with an interactive perspective camera.</p>
 <p><strong>Features:</strong></p>
 <ul>
-<li>Transformations (model/view, projection, rotation, translation, scaling, and lookat)</li>
-<li>Per-pixel clipping - pixels with a z-value less than 0 or greater than 1 are not drawn</li>
-<li>Depth buffer check</li>
-<li>Implements DDA algorithm for drawing lines</li>
-<li>Supports sun lights coming from a specified direction</li>
-<li>Allows an arbitrary number of lights and sums their contributions</li>
-<li>Uses Lambert&rsquo;s Law for illumination</li>
+<li>2D triangle rasterization with line-segment intersection testing</li>
+<li>Axis-aligned bounding boxes for optimization</li>
+<li>Barycentric interpolation</li>
+<li>Z-buffering</li>
+<li>Interactive camera</li>
+<li>Perspective-correct interpolation</li>
+<li>Texture mapping</li>
+<li>Lambertian reflection model</li>
 </ul>
-<p><strong>Improvements:</strong></p>
+<p><strong>Extras:</strong></p>
 <ul>
-<li>Add support for textures and different types of lighting (e.g. point lights)</li>
+<li>Iridescent and toon shading model implementation</li>
 </ul>
-<p><strong>Code Sample:</strong></p>
-<ul>
-<li><a href="/rasterizer.py">rasterizer.py</a></li>
-<li><a href="/chair.txt">chair.txt</a></li>
-</ul>
-<p>To run:</p>
-<pre tabindex="0"><code>python rasterizer.py chair.txt
-</code></pre>
+
 </div>
 
         </div><div id="footer" class="mb-5">

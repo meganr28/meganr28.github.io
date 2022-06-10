@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>CPU Path Tracer</title>
+    <title>Cubic Stylization Authoring Tool</title>
     <meta name="description" content="Porfolio Website">
     <meta name="author" content='Megan Reddy'>
 
@@ -55,21 +55,21 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h1 id="cpu-path-tracer">CPU Path Tracer</h1>
-<p>March 2022</p>
-<p><img src="/goldSpheres.png" alt="Gold Spheres">
-<img src="/roughSpheres.png" alt="Rough Spheres">
-<img src="/thinLens.png" alt="Depth of Field"></p>
-<p><strong>Description:</strong> A path tracer implemented using the <em>Physically Based Rendering</em> textbook.</p>
+    <h1 id="cubic-stylization-authoring-tool">Cubic Stylization Authoring Tool</h1>
+<p>May 2022</p>
+<p><img src="/cubicCows.png" alt="Cubified Cows">
+<img src="/polyShapes.PNG" alt="Various Polyhedral Shapes">
+<img src="/cubicMenu.PNG" alt="Menu">
+<img src="/cubicStylization.gif" alt="Cubification GIF"></p>
+<p><strong>Description:</strong> A Maya plugin for stylized 3D surface deformation. Our authoring tool takes an input mush and deforms it to exhibit cube-like geometry while preserving surface detail. This was developed with teammate Nick Moon.</p>
+<p><strong>Paper:</strong> <a href="https://www.dgp.toronto.edu/projects/cubic-stylization/"><em>Cubic Stylization</em></a>, Hsueh-Ti Derek Liu and Alec Jacobson, SIGGRAPH Asia 2019</p>
 <p><strong>Features:</strong></p>
 <ul>
-<li>Full Lighting Integrator</li>
-<li>Russian Roulette ray termination</li>
-<li>Multiple Importance Sampling</li>
-<li>Diffuse, reflective, and transmissive materials</li>
-<li>Thin lens camera/depth of field</li>
-<li>Microfacet BRDF</li>
-<li>Area, point, and spot lights</li>
+<li>Basic cubification of shapes through minimization of ARAP energy</li>
+<li>Extension to other polyhedral target shapes (tetrahedron, octahedron, etc.)</li>
+<li>Per-vertex deformation factors</li>
+<li>Per-axis deformation factors</li>
+<li>Local or global deformation options</li>
 </ul>
 
 </div>

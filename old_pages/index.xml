@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Old_pages on Megan Reddy</title>
+    <link>http://example.org/old_pages/</link>
+    <description>Recent content in Old_pages on Megan Reddy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/old_pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Rasterizer</title>
+      <link>http://example.org/old_pages/rasterizer_uva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/old_pages/rasterizer_uva/</guid>
+      <description>3D Rasterizer in Python October 2020
+Description: For my Introduction to Computer Graphics class at the University of Virginia, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
+Features:
+ Transformations (model/view, projection, rotation, translation, scaling, and lookat) Per-pixel clipping - pixels with a z-value less than 0 or greater than 1 are not drawn Depth buffer check Implements DDA algorithm for drawing lines Supports sun lights coming from a specified direction Allows an arbitrary number of lights and sums their contributions Uses Lambert&amp;rsquo;s Law for illumination  Improvements:</description>
+    </item>
+    
+    <item>
+      <title>Animation</title>
+      <link>http://example.org/old_pages/animation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/old_pages/animation/</guid>
+      <description>Animation 1. Animated Short Film: &amp;ldquo;Monsoon&amp;rdquo; December 2019
+ University of Virginia ARCH 5420 Final Project
+Description: I created a 1-3 minute animation incorporating themes from the entire semester (time, light, etc.).
+Features and Responsibilities:
+ Modeled, shaded, rigged, and animated all characters and settings (with the exception of the gate and power line - courtesy of TurboSquid) MEL scripting to manipulate the rain, wind, and light intensity Rendered over 3,500 frames in V-Ray using multiple computers Features V-Ray Mesh Lighting and Environmental Fog  Future Work:</description>
+    </item>
+    
+    <item>
+      <title>Curve Editor</title>
+      <link>http://example.org/old_pages/curveeditor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/old_pages/curveeditor/</guid>
+      <description>Animation Curve Editor in C++ October 2021
+Description: An interactive animation and spline curve editor with a Unity plugin.
+Features:
+ Linear, cubic Catmull-Rom, and Hermite spline interpolation Three Bezier curve computation methods: Bernstein polynomials, de Casteljau, Matrix method Euler angle and quaternion spline interpolation  </description>
+    </item>
+    
+    <item>
+      <title>Monte Carlo Path Tracer</title>
+      <link>http://example.org/old_pages/pathtracer_uva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/old_pages/pathtracer_uva/</guid>
+      <description>Monte Carlo Path Tracer in C++ November 2020
+Utah Teapot (50 samples)
+Description: For my final project in Introduction to Computer Graphics at the University of Virginia, I extended a ray tracer I wrote into a unidirectional path tracer. I translated my original Python implementation into C++ for improved performance.
+Features:
+ Monte Carlo sampling for global illumination Sampling of area lights (produces soft shadows) Color bleeding Gamma correction Ray-sphere, triangle, plane, and rectangle intersections Diffuse, reflective, and refractive materials  Improvements:</description>
+    </item>
+    
+  </channel>
+</rss>

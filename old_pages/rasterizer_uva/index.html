@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>CPU Path Tracer</title>
+    <title>3D Rasterizer</title>
     <meta name="description" content="Porfolio Website">
     <meta name="author" content='Megan Reddy'>
 
@@ -55,23 +55,32 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h1 id="cpu-path-tracer">CPU Path Tracer</h1>
-<p>March 2022</p>
-<p><img src="/goldSpheres.png" alt="Gold Spheres">
-<img src="/roughSpheres.png" alt="Rough Spheres">
-<img src="/thinLens.png" alt="Depth of Field"></p>
-<p><strong>Description:</strong> A path tracer implemented using the <em>Physically Based Rendering</em> textbook.</p>
+    <h1 id="3d-rasterizer-in-python">3D Rasterizer in Python</h1>
+<p>October 2020</p>
+<p><img src="/chair.png" alt="Red Chair"></p>
+<p><strong>Description:</strong> For my Introduction to Computer Graphics class at the University of Virginia, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.</p>
 <p><strong>Features:</strong></p>
 <ul>
-<li>Full Lighting Integrator</li>
-<li>Russian Roulette ray termination</li>
-<li>Multiple Importance Sampling</li>
-<li>Diffuse, reflective, and transmissive materials</li>
-<li>Thin lens camera/depth of field</li>
-<li>Microfacet BRDF</li>
-<li>Area, point, and spot lights</li>
+<li>Transformations (model/view, projection, rotation, translation, scaling, and lookat)</li>
+<li>Per-pixel clipping - pixels with a z-value less than 0 or greater than 1 are not drawn</li>
+<li>Depth buffer check</li>
+<li>Implements DDA algorithm for drawing lines</li>
+<li>Supports sun lights coming from a specified direction</li>
+<li>Allows an arbitrary number of lights and sums their contributions</li>
+<li>Uses Lambert&rsquo;s Law for illumination</li>
 </ul>
-
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>Add support for textures and different types of lighting (e.g. point lights)</li>
+</ul>
+<p><strong>Code Sample:</strong></p>
+<ul>
+<li><a href="/rasterizer.py">rasterizer.py</a></li>
+<li><a href="/chair.txt">chair.txt</a></li>
+</ul>
+<p>To run:</p>
+<pre tabindex="0"><code>python rasterizer.py chair.txt
+</code></pre>
 </div>
 
         </div><div id="footer" class="mb-5">

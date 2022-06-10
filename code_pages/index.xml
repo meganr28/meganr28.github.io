@@ -7,27 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/code_pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>3D Rasterizer</title>
-      <link>http://example.org/code_pages/rasterizer/</link>
+      <title>CPU Path Tracer</title>
+      <link>http://example.org/code_pages/pathtracer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/code_pages/rasterizer/</guid>
-      <description>3D Rasterizer in Python October 2020
-Description: For my Introduction to Computer Graphics class at the University of Virginia, I created a 3D rasterizer that implements the pipeline for rasterizing triangles.
+      <guid>http://example.org/code_pages/pathtracer/</guid>
+      <description>CPU Path Tracer March 2022
+Description: A path tracer implemented using the Physically Based Rendering textbook.
 Features:
- Transformations (model/view, projection, rotation, translation, scaling, and lookat) Per-pixel clipping - pixels with a z-value less than 0 or greater than 1 are not drawn Depth buffer check Implements DDA algorithm for drawing lines Supports sun lights coming from a specified direction Allows an arbitrary number of lights and sums their contributions Uses Lambert&amp;rsquo;s Law for illumination  Improvements:</description>
+ Full Lighting Integrator Russian Roulette ray termination Multiple Importance Sampling Diffuse, reflective, and transmissive materials Thin lens camera/depth of field Microfacet BRDF Area, point, and spot lights  </description>
     </item>
     
     <item>
-      <title>Curve Editor</title>
-      <link>http://example.org/code_pages/curveeditor/</link>
+      <title>Cubic Stylization Authoring Tool</title>
+      <link>http://example.org/code_pages/cubestylization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/code_pages/curveeditor/</guid>
-      <description>Animation Curve Editor in C++ October 2021
-Description: An interactive animation and spline curve editor with a Unity plugin.
+      <guid>http://example.org/code_pages/cubestylization/</guid>
+      <description>Cubic Stylization Authoring Tool May 2022
+Description: A Maya plugin for stylized 3D surface deformation. Our authoring tool takes an input mush and deforms it to exhibit cube-like geometry while preserving surface detail. This was developed with teammate Nick Moon.
+Paper: Cubic Stylization, Hsueh-Ti Derek Liu and Alec Jacobson, SIGGRAPH Asia 2019
 Features:
- Linear, cubic Catmull-Rom, and Hermite spline interpolation Three Bezier curve computation methods: Bernstein polynomials, de Casteljau, Matrix method Euler angle and quaternion spline interpolation  </description>
+ Basic cubification of shapes through minimization of ARAP energy Extension to other polyhedral target shapes (tetrahedron, octahedron, etc.</description>
+    </item>
+    
+    <item>
+      <title>GPU Path Tracer</title>
+      <link>http://example.org/code_pages/gpupath/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/code_pages/gpupath/</guid>
+      <description>GPU Path Tracer April 2022
+Description: An interactive GPU path tracer written in GLSL.
+Features:
+ Full Lighting Integrator Diffuse, specular, and transmissive materials Signed distance functions Environment lighting Procedurally-generated textures Albedo and normal mapping Thin lens camera/depth of field  </description>
     </item>
     
     <item>
@@ -39,21 +52,19 @@ Features:
       <description>Micro Maya Mesh Editor in C++ October 2021
 Description: A mesh editor application in the style of Autodesk Maya.
 Features:
- Half-edge mesh data structure implementation Interactive GUI for selecting vertices, faces, and half-edges in the mesh Topology editing functions, including split edge and triangulation Catmull-Clark subdivision for mesh smoothing Face extrusion OBJ file importing  In-Progress:
- Bind skeleton to mesh Linear blend skinning JSON file importing  </description>
+ Half-edge mesh data structure implementation Interactive GUI for selecting vertices, faces, and half-edges in the mesh Topology editing functions, including split edge and triangulation Catmull-Clark subdivision for mesh smoothing Face extrusion JSON/OBJ file importing Bind skeleton to mesh Linear blend skinning  </description>
     </item>
     
     <item>
-      <title>Monte Carlo Path Tracer</title>
-      <link>http://example.org/code_pages/pathtracer/</link>
+      <title>Mini Minecraft</title>
+      <link>http://example.org/code_pages/minecraft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/code_pages/pathtracer/</guid>
-      <description>Monte Carlo Path Tracer in C++ November 2020
-Utah Teapot (50 samples)
-Description: For my final project in Introduction to Computer Graphics at the University of Virginia, I extended a ray tracer I wrote into a unidirectional path tracer. I translated my original Python implementation into C++ for improved performance.
-Features:
- Monte Carlo sampling for global illumination Sampling of area lights (produces soft shadows) Color bleeding Gamma correction Ray-sphere, triangle, plane, and rectangle intersections Diffuse, reflective, and refractive materials  Improvements:</description>
+      <guid>http://example.org/code_pages/minecraft/</guid>
+      <description>Mini Minecraft December 2021
+Description: An implementation of the popular 3D world exploration game Minecraft and based on the TV series Avatar: The Last Airbender. This was a group project with two other students.
+My Contributions:
+ Procedural terrain Mountain, grassland, island, and tundra biomes Multithreaded terrain generation Procedural sky Procedural assets (crystals, boats, trees) Lava and green crystal placement (glow implemented by teammate)  </description>
     </item>
     
     <item>
@@ -70,10 +81,10 @@ Features (in order of appearance):
     
     <item>
       <title>Rasterizer and Camera</title>
-      <link>http://example.org/code_pages/rasterizer2/</link>
+      <link>http://example.org/code_pages/rasterizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/code_pages/rasterizer2/</guid>
+      <guid>http://example.org/code_pages/rasterizer/</guid>
       <description>Rasterizer and Camera in C++ October 2021
 Description: A 2D and 3D rasterizer with an interactive perspective camera.
 Features:
