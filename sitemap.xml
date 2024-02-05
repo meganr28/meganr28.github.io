@@ -2,48 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/art_pages/modeling/</loc>
+    <loc>https://meganr28.github.io/art/modeling/</loc>
   </url><url>
-    <loc>http://example.org/old_pages/rasterizer_uva/</loc>
+    <loc>https://meganr28.github.io/blog_landing/</loc>
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://meganr28.github.io/art/</loc>
   </url><url>
-    <loc>http://example.org/old_pages/animation/</loc>
+    <loc>https://meganr28.github.io/blog/</loc>
   </url><url>
-    <loc>http://example.org/art/</loc>
+    <loc>https://meganr28.github.io/categories/</loc>
   </url><url>
-    <loc>http://example.org/art_pages/</loc>
+    <loc>https://meganr28.github.io/code/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://meganr28.github.io/code/cubicstylization/</loc>
   </url><url>
-    <loc>http://example.org/code/</loc>
+    <loc>https://meganr28.github.io/code/cudapathtracer/</loc>
   </url><url>
-    <loc>http://example.org/code_pages/</loc>
+    <loc>https://meganr28.github.io/art/digitalart/</loc>
   </url><url>
-    <loc>http://example.org/code_pages/pathtracer/</loc>
+    <loc>https://meganr28.github.io/code/dxrpathtracer/</loc>
   </url><url>
-    <loc>http://example.org/code_pages/cubestylization/</loc>
+    <loc>https://meganr28.github.io/code/fantasymap/</loc>
   </url><url>
-    <loc>http://example.org/old_pages/curveeditor/</loc>
+    <loc>https://meganr28.github.io/code/deferredshading/</loc>
   </url><url>
-    <loc>http://example.org/art_pages/digitalart/</loc>
+    <loc>https://meganr28.github.io/tags/games/</loc>
   </url><url>
-    <loc>http://example.org/code_pages/gpupath/</loc>
+    <loc>https://meganr28.github.io/tags/geometry-processing/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://meganr28.github.io/code/nullvolumes/</loc>
   </url><url>
-    <loc>http://example.org/code_pages/maya/</loc>
+    <loc>https://meganr28.github.io/blog/hobbyrenderintro/</loc>
   </url><url>
-    <loc>http://example.org/code_pages/minecraft/</loc>
+    <loc>https://meganr28.github.io/</loc>
   </url><url>
-    <loc>http://example.org/old_pages/pathtracer_uva/</loc>
+    <loc>https://meganr28.github.io/code/glslpathtracer/</loc>
   </url><url>
-    <loc>http://example.org/old_pages/</loc>
+    <loc>https://meganr28.github.io/code/paintsquash/</loc>
   </url><url>
-    <loc>http://example.org/code_pages/opengl/</loc>
+    <loc>https://meganr28.github.io/art/proceduralart/</loc>
   </url><url>
-    <loc>http://example.org/code_pages/rasterizer/</loc>
+    <loc>https://meganr28.github.io/code/radioactive/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://meganr28.github.io/tags/rendering/</loc>
+  </url><url>
+    <loc>https://meganr28.github.io/tags/</loc>
   </url>
 </urlset>

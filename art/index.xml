@@ -2,50 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arts on Megan Reddy</title>
-    <link>http://example.org/art/</link>
+    <link>https://meganr28.github.io/art/</link>
     <description>Recent content in Arts on Megan Reddy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/art/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Megan Reddy</copyright><atom:link href="https://meganr28.github.io/art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D Modeling</title>
-      <link>http://example.org/art/renders/</link>
+      <link>https://meganr28.github.io/art/modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/art/renders/</guid>
-      <description>3D Modeling 1. Violin October 2021
-Tools: Maya and Arnold
-2. Ice Cream Pop Art October 2021
-Tools: Maya and Arnold Toon Shader
-3. Object Study October 2021
-Tools: Maya and Arnold</description>
-    </item>
-    
-    <item>
-      <title>Animation</title>
-      <link>http://example.org/art/animation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/art/animation/</guid>
-      <description>Animation 1. Animated Short Film: &amp;ldquo;Monsoon&amp;rdquo; December 2019
-VIEW PROJECT VIDEO HIGHLIGHTS
-University of Virginia ARCH 5420 Final Project
-Description: I created a 1-3 minute animation incorporating themes from the entire semester (time, light, etc.).
-Features and Responsibilities:
- Modeled, shaded, rigged, and animated all characters and settings (with the exception of the gate and power line - courtesy of TurboSquid) MEL scripting to manipulate the rain, wind, and light intensity Rendered over 3,500 frames in V-Ray using multiple computers Features V-Ray Mesh Lighting and Environmental Fog  Improvements:</description>
+      <guid>https://meganr28.github.io/art/modeling/</guid>
+      <description>Nancy Drew&amp;rsquo;s Shadow Ranch Description: A reimagination of a scene from one of my favorite childhood games, Nancy Drew: The Secret of Shadow Ranch (2004).
+Programs: Maya, Substance Painter, Substance Designer, Arnold
+ Music Room Description: A study of the room in this photograph. I added a few objects in the foreground that I had modeled in ZBrush since I was learning the program at the time.
+Programs: Maya, Arnold, ZBrush</description>
     </item>
     
     <item>
       <title>Digital Art</title>
-      <link>http://example.org/art/digital/</link>
+      <link>https://meganr28.github.io/art/digitalart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/art/digital/</guid>
-      <description>Digital Art 1. Labrador Retriever August 2019
+      <guid>https://meganr28.github.io/art/digitalart/</guid>
+      <description>Mountain Sky Description: A quick painting of an early morning sky and mountains.
 Program: Procreate
-Description: This drawing was inspired by my 13-year-old chocolate Labrador Retriever who always has a goofy smile on her face.
-2. Hot Chocolate September 2019
+ Honey Jar Description: A stylized painting of various objects such as a honey jar and orange.
 Program: Procreate
-Description: I drew this from a photo I took at our local coffee shop.</description>
+ Labrador Retriever Description: This drawing was inspired by my 14-year-old chocolate Labrador Retriever who always has a goofy smile on her face.
+Program: Procreate
+ Hot Chocolate Description: I drew this from a photo I took at our local coffee shop.</description>
+    </item>
+    
+    <item>
+      <title>Procedural Art</title>
+      <link>https://meganr28.github.io/art/proceduralart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/art/proceduralart/</guid>
+      <description>Journey Through a Nebula Description: I wanted to create the illusion of moving through a stellar nursery. For the main star in the center, I deformed the vertices using low frequency Worley noise with a layer of high frequency FBM on the top. I used a rotation matrix and several offsets based on sin and cos to continuously move the vertices over time. I colored the icosphere by mapping the FBM value to a fiery color gradient.</description>
     </item>
     
   </channel>
