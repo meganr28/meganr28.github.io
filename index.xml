@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Megan Reddy</title>
+    <link>https://meganr28.github.io/</link>
+    <description>Recent content on Megan Reddy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Megan Reddy</copyright><atom:link href="https://meganr28.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Modeling</title>
+      <link>https://meganr28.github.io/art/modeling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/art/modeling/</guid>
+      <description>Nancy Drew&amp;rsquo;s Shadow Ranch Description: A reimagination of a scene from one of my favorite childhood games, Nancy Drew: The Secret of Shadow Ranch (2004).
+Programs: Maya, Substance Painter, Substance Designer, Arnold
+ Music Room Description: A study of the room in this photograph. I added a few objects in the foreground that I had modeled in ZBrush since I was learning the program at the time.
+Programs: Maya, Arnold, ZBrush</description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://meganr28.github.io/blog_landing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/blog_landing/</guid>
+      <description>2024  Introduction: Hobby Renderer!  </description>
+    </item>
+    
+    <item>
+      <title>Cubic Stylization Authoring Tool</title>
+      <link>https://meganr28.github.io/code/cubicstylization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/code/cubicstylization/</guid>
+      <description>May 2022
+Description: A Maya plugin for stylized 3D surface deformation. Our authoring tool takes an input mush and deforms it to exhibit cube-like geometry while preserving surface detail. We also extended the implementation to include other non-cubic shapes such tetrahedrons, octahedrons, etc. Here&amp;rsquo;s a short video of our tool in action:
+Teammates: Nick Moon
+Papers:
+ Cubic Stylization, Hsueh-Ti Derek Liu and Alec Jacobson, SIGGRAPH Asia 2019 Normal Driven Spherical Shape Analogies, Hsueh-Ti Derek Liu and Alec Jacobson, Eurographics Symposium on Geometry Processing 2021  Features:</description>
+    </item>
+    
+    <item>
+      <title>CUDA Path Tracer</title>
+      <link>https://meganr28.github.io/code/cudapathtracer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/code/cudapathtracer/</guid>
+      <description>October 2022
+Description: A GPU-accelerated physically-based path tracer written with CUDA and C++. Parallelizes several steps such as camera ray generation, ray intersections, shading, and writing to the final output image.
+See Github for full technical details and more images.
+Features:
+ Ideal diffuse, perfectly specular, imperfectly specular, and refractive surfaces Path continuation/termination with stream compaction Material sorting Caching first bounce intersections Acceleration structures  Linear Bounding Volume Hierarchy (LBVH) Bounding Volume Hierarchy (with Midpoint and SAH split methods)   Russian roulette ray termination Depth-of-field Stochastic sampled anti-aliasing Arbitrary mesh loading (with bounding box culling) Reinhard operator and gamma correction (conversion to sRGB)  </description>
+    </item>
+    
+    <item>
+      <title>Digital Art</title>
+      <link>https://meganr28.github.io/art/digitalart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/art/digitalart/</guid>
+      <description>Mountain Sky Description: A quick painting of an early morning sky and mountains.
+Program: Procreate
+ Honey Jar Description: A stylized painting of various objects such as a honey jar and orange.
+Program: Procreate
+ Labrador Retriever Description: This drawing was inspired by my 14-year-old chocolate Labrador Retriever who always has a goofy smile on her face.
+Program: Procreate
+ Hot Chocolate Description: I drew this from a photo I took at our local coffee shop.</description>
+    </item>
+    
+    <item>
+      <title>DXR Path Tracer with ReSTIR</title>
+      <link>https://meganr28.github.io/code/dxrpathtracer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/code/dxrpathtracer/</guid>
+      <description>December 2022
+Description: A basic DXR Path Tracer that implements the Reservoir-based Spatiotemporal Importance Resampling (ReSTIR) algorithm first introduced by Bitterli et al. at SIGGRAPH 2020. The goal is to improve convergence in scenes with many dynamic lights where standard direct lighting with one randomly chosen light would not be as successful. This implementation also uses NVIDIA&amp;rsquo;s Falcor framework for scene loading and CPU-side setup.
+See Github and this slide deck for full technical and implementation details.</description>
+    </item>
+    
+    <item>
+      <title>Fantasy Map Generator</title>
+      <link>https://meganr28.github.io/code/fantasymap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/code/fantasymap/</guid>
+      <description>December 2022
+Description: A procedural fantasy map generator inspired by hand-drawn maps from fictional worlds. Our tool uses Wave Function Collapse to dynamically generate maps based on artist input. It also uses several shading and procedural generation techniques to stylize the look and scatter assets such as trees and mountains across the landscape. Below are two examples of a map that an artist can generate, including one where we spelled out &amp;ldquo;CGGT&amp;rdquo; (the name of our master&amp;rsquo;s program):</description>
+    </item>
+    
+    <item>
+      <title>Forward&#43; and Clustered Deferred Shading</title>
+      <link>https://meganr28.github.io/code/deferredshading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/code/deferredshading/</guid>
+      <description>October 2022
+Description: A WebGL implementation of the forward, forward+, and clustered deferred rendering methods for a scene with a large number of dynamic point lights. The forward+ and clustered deferred algorithms use light clustering to optimize the process of finding which lights affect the current fragment.
+See Github for full technical and implementation details.
+Features:
+ Optimized rendering of many dynamic lights by splitting the view frustum into clusters and assigning lights to each cluster Lambertian and Blinn-Phong shading G-Buffer optimizations  Oct-encoding normals Reconstructing world space position using camera matrices and depth    </description>
+    </item>
+    
+    <item>
+      <title>GPU-Accelerated Null-Scattering Volumetric Path Tracer</title>
+      <link>https://meganr28.github.io/code/nullvolumes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/code/nullvolumes/</guid>
+      <description>December 2022
+Description: The null scattering path integral formulation allows us to perform MIS for any type of media (homogeneous or heterogeneous). Previous MIS techniques were unbiased only for homogeneous volumes, but this technique allows us to perform unbiased MIS for heterogeneous volumes as well. We implement a GPU-accelerated version of the algorithm using CUDA and NanoVDB for reading volumetric data. Additionally, we use some volumetric models from EmberGen.
+See our Github for full technical and implementation details.</description>
+    </item>
+    
+    <item>
+      <title>Introduction: Hobby Renderer!</title>
+      <link>https://meganr28.github.io/blog/hobbyrenderintro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/blog/hobbyrenderintro/</guid>
+      <description>Over the past few years, I&amp;rsquo;ve been able to write path tracers in different languages/APIs through school projects (see them here). I&amp;rsquo;ve learned a lot from rewriting the algorithm several times, so I&amp;rsquo;m hoping to start a hobby renderer that combines all the knowledge I&amp;rsquo;ve gained over the years. I&amp;rsquo;ll most likely start with a CPU version, but I&amp;rsquo;m also aiming to develop a GPU version alongside it. Ideally, I&amp;rsquo;ll combine them into one system.</description>
+    </item>
+    
+    <item>
+      <title>OpenGL Path Tracer</title>
+      <link>https://meganr28.github.io/code/glslpathtracer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/code/glslpathtracer/</guid>
+      <description>April 2022
+Description: An interactive GPU path tracer written in GLSL. Uses physically-based techniques described in PBRT (Physically Based Rendering, 3rd Edition). The main render loop iterates through a maximum number of bounces per fragment, attenuating ray throughput at each interaction. Additionally, render passes are summed each iteration to produce an image that converges, otherwise it would only display a single iteration. Unfortunately, I am not able to share the code for this project, but I have attached some more renders below:</description>
+    </item>
+    
+    <item>
+      <title>Paint Squash - VR Game</title>
+      <link>https://meganr28.github.io/code/paintsquash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/code/paintsquash/</guid>
+      <description>May 2023
+Summary: Paint Squash is first-person VR sports game based on the game of squash. It features full room-based movement and racket controls via hand controllers. Each level presents the player with an empty painting on the wall in the style of a coloring book. The player must hit paintballs towards the canvas and fill the appropriate sections in order to win. Additionally, they may choose to compete for the best time.</description>
+    </item>
+    
+    <item>
+      <title>Procedural Art</title>
+      <link>https://meganr28.github.io/art/proceduralart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/art/proceduralart/</guid>
+      <description>Journey Through a Nebula Description: I wanted to create the illusion of moving through a stellar nursery. For the main star in the center, I deformed the vertices using low frequency Worley noise with a layer of high frequency FBM on the top. I used a rotation matrix and several offsets based on sin and cos to continuously move the vertices over time. I colored the icosphere by mapping the FBM value to a fiery color gradient.</description>
+    </item>
+    
+    <item>
+      <title>Radioactive - PC Game</title>
+      <link>https://meganr28.github.io/code/radioactive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganr28.github.io/code/radioactive/</guid>
+      <description>March 2023
+Summary: Radioactive is a thrilling puzzle adventure game set in an abandoned lighthouse containing secret nuclear experiments. The game is played from a first-person perspective, where the player must navigate to the top of the lighthouse using only a flashlight. Due to the radioactive environment, the flashlight quickly becomes corrupted and can be used to burn away objects it lights up. The player can use this ability to navigate safely through many twists, turns, and puzzles and discover new secrets along the way.</description>
+    </item>
+    
+  </channel>
+</rss>
